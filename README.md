@@ -7,11 +7,16 @@ This a regular webpack application project without any fancy framework like Angu
 
 ## The accompanying videos
 - [Using Webpack 5 CLI Init to Setup a TypeScript Web Application Project 01 - Init](https://youtu.be/AqZn7b1FH2g)
-- [Webpack5 Typescript 02 Deploying on Azure (CD/CI)](https://youtu.be/jG1OJSRBNzc)
+- [Webpack 5 Typescript 02 Deploying on Azure (CD/CI)](https://youtu.be/jG1OJSRBNzc)
+- [Webpack 5 TypeScript 03 Single Page Application Dynamic Pages](https://youtu.be/h7CSRxV5wZo)
 
 ## Project Scaffolding
 This project has been created using **webpack-cli init**, you have the following commands:
 - **npm run serve** to run the development server
 - **npm run build** to build a production bundle in the **dist** folder.
     - This is not really needed since GitHub deployment workflow will build it for us when deploying the app onto Azure as a static web app.
+
+## Adding Bootrap
+- npm i bootstrap popper bootstrap-icons
+- npm i -D @types/bootstrap
 
